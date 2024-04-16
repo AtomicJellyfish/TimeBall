@@ -1,0 +1,27 @@
+{
+    "title": "Event",
+    "type": "object",
+    "properties": {
+      "name": {
+        "description": "Name of the event",
+        "type": "string"
+      },
+      "date": {
+        "description": "Date of the event (in ISO format YYYY-MM-DD)",
+        "type": "string"
+      },
+      "location": {
+        "description": "Location of the event",
+        "type": "string"
+      },
+      "Coordinates": {
+        "description": "List of attendees for the event",
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/Person"
+        }
+      }
+    },
+    "required": ["name", "date"]
+  }
+  
