@@ -1,27 +1,79 @@
-{
-    "title": "Event",
-    "type": "object",
-    "properties": {
-      "name": {
-        "description": "Name of the event",
-        "type": "string"
-      },
-      "date": {
-        "description": "Date of the event (in ISO format YYYY-MM-DD)",
-        "type": "string"
-      },
-      "location": {
-        "description": "Location of the event",
-        "type": "string"
-      },
-      "Coordinates": {
-        "description": "List of attendees for the event",
-        "type": "array",
-        "items": {
-          "$ref": "#/definitions/Person"
-        }
-      }
-    },
-    "required": ["name", "date"]
+[
+  {
+    "name": "Jesus is baptized by John the Baptist",
+    "Description": "",
+    "Date": "0027-00-00",
+    "Location":"",
+    "Latiude":"",
+    "Longitude":"",
+    "Tags": []
+  },
+  {
+    "name": "Jesus is crucified",
+    "Description": "",
+    "Date": "0033-00-00",
+    "Location":"",
+    "Latiude":"",
+    "Longitude":"",
+    "Tags": []
+  },
+  {
+    "name": "Great fire destroys much of Rome",
+    "Description": "",
+    "Date": "0064-00-00",
+    "Location":"",
+    "Latiude":"",
+    "Longitude":"",
+    "Tags": []
+  },
+  {
+    "name": "Gospel of Luke written",
+    "Description": "",
+    "Date": "0075-00-00",
+    "Location":"",
+    "Latiude":"",
+    "Longitude":"",
+    "Tags": []
+  },
+  {
+    "name": "Jesus is baptized by John the Baptist",
+    "Description": "",
+    "Date": "0027-00-00",
+    "Location":"",
+    "Latiude":"",
+    "Longitude":"",
+    "Tags": []
+  },
+  {	"name": "The Eruption of Vesuvius",
+    "Description": "",
+    "Date": "0079-08-00",
+    "Location":"Pompeii/Herculaneum",
+    "Latiude":"",
+    "Longitude":"",
+    "Tags": []
+  },
+  {	"name": "Rome's Colosseum Is Inaugurated",
+    "Description": "",
+    "Date": "0080-00-00",
+    "Location":"Rome, Italy",
+    "Latiude":"",
+    "Longitude":"",
+    "Tags": []
+  },
+  {	"name": "Building of the Pyramid of the Sun",
+    "Description": "The people of the central Mexican city of Teotihacaun consturcted a vast pyramid on the eastern side fo the Avenue of the Dead, the City's main thoroughfare.",
+    "Date": "0100-00-00",
+    "Location":"Teotihuacan, Mexico",
+    "Latiude":"",
+    "Longitude":"",
+    "Tags": []
+  },
+  {	"name": "Roman Civil War Ends",
+    "Description": "The assassinations of RomanEmperor Commodus and his successor Pertinax",
+    "Date": "0197-00-00",
+    "Location":"",
+    "Latiude":"",
+    "Longitude":"",
+    "Tags": []
   }
-  
+]
